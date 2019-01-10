@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rolling Dice</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  
+  <div class="wrapper clearfix">
+      <div class="player-0-panel active">
+          <div class="player-name" id="name-0">Player 1</div>
+          <div class="player-score" id="score-0">43</div>
+          <div class="player-current-box">
+              <div class="player-current-label">Current</div>
+              <div class="player-current-score" id="current-0">11</div>
+          </div>
+      </div>
+      
+      <div class="player-1-panel">
+          <div class="player-name" id="name-1">Player 2</div>
+          <div class="player-score" id="score-1">72</div>
+          <div class="player-current-box">
+              <div class="player-current-label">Current</div>
+              <div class="player-current-score" id="current-1">0</div>
+          </div>
+      </div>
+      
+      <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+      <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+      <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+      
+      <img src="images/dice-5.png" alt="Dice" class="dice">
+  </div>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
